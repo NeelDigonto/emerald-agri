@@ -54,7 +54,7 @@ export async function loadFBX(
 
       tree_.scale.set(0.04, 0.04, 0.04);
 
-      tree_.position.setY(1);
+      tree_.position.setY(0);
       tree_.position.setX(Math.floor(Math.random() * 100) - 50);
       tree_.position.setZ(Math.floor(Math.random() * 100) - 50);
 
